@@ -3,7 +3,7 @@ package main
 import "testing"
 
 func TestSoma(t *testing.T) {
-	total := Soma(15, 15)
+	total := soma(15, 15)
 
 	if total != 30 {
 		//Para se ter a substituição do valores dentro de uma string se faz assim.
